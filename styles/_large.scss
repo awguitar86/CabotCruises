@@ -36,6 +36,31 @@ main {
 }
 
 
+
+// CRUISES MAIN
+.cruises {
+    width: 100%;
+}
+
+
+
+// AGENT MAIN
+.agent {
+    width: 100%;
+  }
+  .agent-content {
+    img {
+      width: 33%;
+    }
+  }
+
+
+
+// BOOK MAIN
+.book {
+    width: 100%;
+}
+
 .footer-info {
     width: 75rem;
     grid-template-columns: repeat(3, 1fr);

@@ -20,14 +20,14 @@
             </div>
         </div>
         <ul id="dd-menu">
-            <li class="dd-item"><a href="#">HOME</a></li>
-            <li class="dd-item"><a href="#">CRUISES</a></li>
+            <li class="dd-item"><a href="./index.php">HOME</a></li>
+            <li class="dd-item"><a href="./cruises.php">CRUISES</a></li>
             <li class="dd-item"><a href="#" onclick="subMenu()">AGENTS &#9660;</a></li>
             <li id="dd-sub-menu">
-                <a href="#">&bull; LINK 1</a>
-                <a href="#">&bull; LINK 2</a>
+                <a href="./agentTony.php">&bull; Tony Stark</a>
+                <a href="./agentPepper.php">&bull; Pepper Potts</a>
             </li>
-            <li class="dd-item"><a href="#">BOOK</a></li>
+            <li class="dd-item"><a href="./book.php">BOOK</a></li>
         </ul>
     </nav>
     <header>
@@ -41,16 +41,16 @@
     <nav id="lg-nav">
         <div class="nav-body">
             <ul id="lg-dd-menu">
-                <li class="lg-dd-item"><a href="#">HOME</a></li>
-                <li class="lg-dd-item"><a href="#">CRUISES</a></li>
+                <li class="lg-dd-item"><a href="./index.php">HOME</a></li>
+                <li class="lg-dd-item"><a href="./cruises.php">CRUISES</a></li>
                 <li id="sub-menu-nav">
                     <a href="#" onclick="lgSubMenu()" class="sub-menu-nav-link">AGENTS &#9660;</a>
                     <div id="sub-nav" style="display:none;">
-                        <a href="#">&bull; Tony Stark</a>
-                        <a href="#">&bull; Steve Rogers</a>
+                        <a href="./agentTony.php">&bull; Tony Stark</a>
+                        <a href="./agentPepper.php">&bull; Pepper Potts</a>
                     </div>
                 </li>
-                <li class="lg-dd-item"><a href="#">BOOK</a></li>
+                <li class="lg-dd-item"><a href="./book.php">BOOK</a></li>
             </ul>
             <div class="search">
                 <input type="search">

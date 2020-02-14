@@ -590,6 +590,125 @@ main {
   margin: 0;
 }
 
+.cruises {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.cruises h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.cruise-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cruise-item img {
+  width: 100%;
+  height: auto;
+}
+
+.cruise-item-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.cruise-item-content h2, .cruise-item-content p, .cruise-item-content button {
+  font-family: "Montserrat", sans-serif;
+}
+.cruise-item-content h2 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.btn-wrap {
+  width: 100%;
+}
+.btn-wrap button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background: #197bbd;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.btn-wrap button:hover {
+  background: #2797e2;
+}
+
+.agent {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.agent h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.agent-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.agent-content img {
+  width: 100%;
+  height: 100%;
+}
+.agent-content p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.book {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.book h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.book-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.book-form label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+}
+.book-form label input {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+.book-form label select {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+
+#book-form-submit {
+  width: 100%;
+  height: 40px;
+  margin-top: 25px;
+  background: #197bbd;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+#book-form-submit:hover {
+  background: #2797e2;
+}
+
 footer {
   width: 100vw;
   background: #bbbbbb;
@@ -836,6 +955,79 @@ footer .copyright {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .cruises {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cruises h1 {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .cruise-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+  .cruise-item img {
+    width: 33%;
+    height: 100%;
+  }
+
+  .cruise-item-content {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+  .cruise-item-content h2, .cruise-item-content p, .cruise-item-content button {
+    font-family: "Montserrat", sans-serif;
+  }
+  .cruise-item-content h2 {
+    margin: 0;
+    margin-top: 0;
+  }
+
+  .btn-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-wrap button {
+    width: 25%;
+  }
+
+  .agent {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .agent h1 {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .agent-content {
+    width: 100%;
+    display: block;
+  }
+  .agent-content img {
+    float: right;
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .agent-content p {
+    font-family: "Montserrat", sans-serif;
+    clear: left;
+  }
+
+  .book-form {
+    width: 50%;
+  }
+
   .footer-info {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -884,6 +1076,22 @@ footer .copyright {
 
   .blogH4 {
     font-size: 16pt;
+  }
+
+  .cruises {
+    width: 100%;
+  }
+
+  .agent {
+    width: 100%;
+  }
+
+  .agent-content img {
+    width: 33%;
+  }
+
+  .book {
+    width: 100%;
   }
 
   .footer-info {
