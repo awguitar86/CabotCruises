@@ -103,10 +103,10 @@
 
     $(document).ready(function () {
         var url = window.location;
-        $('ul li a[href="'+ url +'"]').parent().addClass('active');
+        $('ul li a[href="'+ url +'"]').addClass('active');
         $('ul li a').filter(function() {
              return this.href == url;
-        }).parent().addClass('active');
+        }).addClass('active');
     });
 </script>
 <script type="application/ld+json">
