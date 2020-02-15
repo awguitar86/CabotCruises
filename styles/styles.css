@@ -495,7 +495,7 @@ header .phone-num {
 }
 
 .active {
-  color: #3a506b !important;
+  border-bottom: solid 2px white !important;
 }
 
 main {
