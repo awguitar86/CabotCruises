@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 html {
   line-height: 1.15;
   /* 1 */
@@ -187,9 +187,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
@@ -197,9 +197,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -208,9 +208,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -260,8 +260,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
+[type='checkbox'],
+[type='radio'] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -271,8 +271,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -280,7 +280,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type='search'] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -290,7 +290,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -350,7 +350,8 @@ html {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -376,7 +377,7 @@ header h3 {
 header .phone-num {
   text-decoration: none;
   color: #3a506b;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: large;
 }
 
@@ -412,7 +413,7 @@ header .phone-num {
   border: none;
   background: none;
   font-size: 16pt;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   margin-left: 10px;
   transition: ease-in-out 0.2s;
@@ -466,7 +467,7 @@ header .phone-num {
   height: 100%;
   text-decoration: none;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -482,7 +483,7 @@ header .phone-num {
 #sm-nav #dd-sub-menu a {
   width: 100%;
   height: 40px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   background: #197bbd;
   border-bottom: solid 1px white;
@@ -494,7 +495,7 @@ header .phone-num {
 }
 
 .active {
-  background: #243243;
+  border-bottom: solid 1px white;
 }
 
 main {
@@ -532,7 +533,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .blog-teasers {
@@ -565,7 +566,7 @@ main {
 .blogH4 {
   position: absolute;
   top: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   width: 100%;
   height: 20%;
@@ -578,7 +579,7 @@ main {
 
 .blogP {
   position: absolute;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   bottom: 0;
   width: 100%;
@@ -596,7 +597,7 @@ main {
   flex-direction: column;
 }
 .cruises h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .cruise-item {
@@ -615,8 +616,10 @@ main {
   flex-direction: column;
   margin-bottom: 40px;
 }
-.cruise-item-content h2, .cruise-item-content p, .cruise-item-content button {
-  font-family: "Montserrat", sans-serif;
+.cruise-item-content h2,
+.cruise-item-content p,
+.cruise-item-content button {
+  font-family: 'Montserrat', sans-serif;
 }
 .cruise-item-content h2 {
   margin: 0;
@@ -646,7 +649,7 @@ main {
   flex-direction: column;
 }
 .agent h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .agent-content {
@@ -659,7 +662,7 @@ main {
   height: 100%;
 }
 .agent-content p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .book {
@@ -668,7 +671,7 @@ main {
   flex-direction: column;
 }
 .book h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .book-form {
@@ -679,7 +682,7 @@ main {
 .book-form label {
   display: flex;
   flex-direction: column;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 15px;
 }
 .book-form label input {
@@ -699,7 +702,7 @@ main {
   margin-top: 25px;
   background: #197bbd;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -718,7 +721,7 @@ footer {
   align-items: center;
 }
 footer .copyright {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #3a506b;
 }
 
@@ -735,12 +738,12 @@ footer .copyright {
   width: 100%;
 }
 .contact-us h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #3a506b;
   margin: 0;
 }
 .contact-us p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 5px 0px 15px 0px;
 }
 .contact-us p a {
@@ -755,12 +758,12 @@ footer .copyright {
   margin-bottom: 20px;
 }
 .newsletter h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #3a506b;
   margin: 0;
 }
 .newsletter p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 5px 0px 15px 0px;
 }
 .newsletter input {
@@ -778,7 +781,7 @@ footer .copyright {
   background: #197bbd;
   color: white;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   transition: ease-in-out 0.3s;
 }
 .newsletter button:hover {
@@ -789,12 +792,12 @@ footer .copyright {
   width: 100%;
 }
 .why-cabot h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #3a506b;
   margin: 0;
 }
 .why-cabot p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 5px 0px 15px 0px;
 }
 
@@ -832,13 +835,13 @@ footer .copyright {
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
 
 @media only screen and (min-width: 48rem) {
-  @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
   #lg-nav {
     display: flex;
     justify-content: center;
@@ -900,7 +903,7 @@ footer .copyright {
     z-index: 1000;
   }
   #sub-nav a {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 11pt;
     color: white;
     text-decoration: none;
@@ -961,7 +964,7 @@ footer .copyright {
     flex-direction: column;
   }
   .cruises h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .cruise-item {
@@ -982,8 +985,10 @@ footer .copyright {
     margin-bottom: 0;
     margin-left: 20px;
   }
-  .cruise-item-content h2, .cruise-item-content p, .cruise-item-content button {
-    font-family: "Montserrat", sans-serif;
+  .cruise-item-content h2,
+  .cruise-item-content p,
+  .cruise-item-content button {
+    font-family: 'Montserrat', sans-serif;
   }
   .cruise-item-content h2 {
     margin: 0;
@@ -1005,7 +1010,7 @@ footer .copyright {
     flex-direction: column;
   }
   .agent h1 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .agent-content {
@@ -1020,7 +1025,7 @@ footer .copyright {
     margin-bottom: 10px;
   }
   .agent-content p {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     clear: left;
   }
 
@@ -1035,7 +1040,7 @@ footer .copyright {
 }
 /* end of media query */
 @media only screen and (min-width: 75rem) {
-  @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
   header {
     width: 75rem;
   }
