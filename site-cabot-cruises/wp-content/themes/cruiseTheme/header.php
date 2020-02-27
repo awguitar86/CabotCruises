@@ -20,16 +20,7 @@
                 <button><img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search icon"></button>
             </div>
         </div>
-        <ul id="dd-menu">
-            <li class="dd-item"><a href="<?php echo get_template_directory_uri(); ?>/index.php">HOME</a></li>
-            <li class="dd-item"><a href="<?php echo get_template_directory_uri(); ?>/cruises.php">CRUISES</a></li>
-            <li class="dd-item"><a href="#" onclick="subMenu()">AGENTS &#9660;</a></li>
-            <li id="dd-sub-menu">
-                <a href="<?php echo get_template_directory_uri(); ?>/agentTony.php">&bull; Tony Stark</a>
-                <a href="<?php echo get_template_directory_uri(); ?>/agentPepper.php">&bull; Pepper Potts</a>
-            </li>
-            <li class="dd-item"><a href="<?php echo get_template_directory_uri(); ?>/book.php">BOOK</a></li>
-        </ul>
+        <?php wp_nav_menu(array('menu_id' => 'primaryNav'))?>
     </nav>
     <header>
         <img    src="./images/shipLogoX1.png"
@@ -41,7 +32,7 @@
     </header>
     <nav id="lg-nav">
         <div class="nav-body">
-            <?php wp_nav_menu()?>
+            <?php wp_nav_menu(array('menu_id' => 'primaryNav'))?>
             <div class="search">
                 <input type="search">
                 <button><img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search icon"></button>
