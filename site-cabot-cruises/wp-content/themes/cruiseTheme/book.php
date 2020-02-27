@@ -1,7 +1,4 @@
-<?php
-    $title="Book";
-    include '_top.php';
-?>
+
         <div class="book">
           <h1>Book A Cruise!</h1>
           <form class="book-form">
@@ -92,4 +89,3 @@
             <input type="submit" value="Book A Cruise" id="book-form-submit">
           </form>
         </div>
-<?php include '_bot.php'; ?>

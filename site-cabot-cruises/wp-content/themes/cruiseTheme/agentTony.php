@@ -4,8 +4,8 @@
 ?>
   <div class="agent">
     <h1>Agent Tony Stark</h1>
-    <div class="agent-content">  
-      <img src="./images/tonyStark.jpg" alt="Tony Stark">
+    <div class="agent-content">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/tonyStark.jpg" alt="Tony Stark">
       <p>
         <strong>Phone:</strong>
         <br/>
@@ -32,7 +32,7 @@
         Traveling is my number one hobby, and I have done a lot of it. I have gone all around the world visiting numerous places. I can make your experience the best possible because I've most likely been there.
         <br/>
         <br/>
-        I started traveling when I was in high school, and I got addicted. I did whatever I could to work jobs that would allow me to travel as much as possible. And now I get to help other people travel and help people fulfill their dreams! 
+        I started traveling when I was in high school, and I got addicted. I did whatever I could to work jobs that would allow me to travel as much as possible. And now I get to help other people travel and help people fulfill their dreams!
       </p>
       <p>
         <strong>Customer Comment:</strong>

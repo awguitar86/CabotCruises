@@ -36,18 +36,18 @@
     </div>
     <div class="social-wrap">
         <div class="social-icons">
-            <a><img src="./images/facebook.svg" alt="facebook logo"></a>
-            <a><img src="./images/instagram.svg" alt="instagram logo"></a>
-            <a><img src="./images/twitter.svg" alt="twitter logo"></a>
-            <a><img src="./images/youtube.svg" alt="youtube logo"></a>
-            <a><img src="./images/linkedin.svg" alt="linkedin logo"></a>
+            <a><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt="facebook logo"></a>
+            <a><img src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="instagram logo"></a>
+            <a><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.svg" alt="twitter logo"></a>
+            <a><img src="<?php echo get_template_directory_uri(); ?>/images/youtube.svg" alt="youtube logo"></a>
+            <a><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin logo"></a>
         </div>
     </div>
     <p class="copyright">© 2020 &bull; Austin Wright</p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
-<script type="text/javascript" src="./slick/slick/slick.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick/slick.min.js"></script>
 <script>
     const hamburger = document.getElementById("menu");
     const x = document.getElementById('x');
