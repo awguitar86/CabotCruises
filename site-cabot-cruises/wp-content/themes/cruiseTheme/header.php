@@ -20,7 +20,9 @@
                 <button><img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search icon"></button>
             </div>
         </div>
-        <?php wp_nav_menu(array('menu_id' => 'dd-menu'))?>
+        <div id="dd-menu">
+          <?php wp_nav_menu()?>
+        </div>
     </nav>
     <header>
         <img    src="./images/shipLogoX1.png"
