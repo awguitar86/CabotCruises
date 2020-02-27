@@ -20,7 +20,7 @@
                 <button><img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search icon"></button>
             </div>
         </div>
-        <?php wp_nav_menu(array('menu_id' => 'primaryNav'))?>
+        <?php wp_nav_menu(array('menu_id' => 'dd-menu'))?>
     </nav>
     <header>
         <img    src="./images/shipLogoX1.png"
@@ -32,7 +32,7 @@
     </header>
     <nav id="lg-nav">
         <div class="nav-body">
-            <?php wp_nav_menu(array('menu_id' => 'primaryNav'))?>
+            <?php wp_nav_menu(array('menu_id' => 'lg-dd-menu'))?>
             <div class="search">
                 <input type="search">
                 <button><img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search icon"></button>
