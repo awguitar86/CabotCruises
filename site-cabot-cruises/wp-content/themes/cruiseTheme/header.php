@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cabot Cruises<?php wp_title(); ?></title>
-    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/styles/styles.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="./slick/slick/slick-theme.css"/>
 </head>
