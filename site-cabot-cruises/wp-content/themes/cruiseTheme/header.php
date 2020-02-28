@@ -16,7 +16,7 @@
             <button id="menu" onclick="showMenu()">&#9776;</button>
             <button id="x" onclick="hideMenu()">X</button>
             <form method='get' action='/' class="search">
-                <input type="search" name='s' placeholder='search...'>
+                <input class="search-input" type="search" name='s' placeholder='search...'>
                 <input class='search-btn' type='submit' value=''/>
             </form>
         </div>
@@ -36,7 +36,7 @@
         <div class="nav-body">
             <?php wp_nav_menu(array('menu_id' => 'lg-dd-menu'))?>
             <form method='get' action='/' class="search">
-                <input type="search" name='s' placeholder='search...'>
+                <input class="search-input" type="search" name='s' placeholder='search...'>
                 <input class='search-btn' type='submit' value=''/>
             </form>
         </div>
