@@ -35,10 +35,10 @@
     <nav id="lg-nav">
         <div class="nav-body">
             <?php wp_nav_menu(array('menu_id' => 'lg-dd-menu'))?>
-            <div class="search">
-                <input type="search">
-                <button><img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search icon"></button>
-            </div>
+            <form method='get' action='' class="search">
+                <input type="search" name='s' placeholder='search...'>
+                <input type='submit' value=''><img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search icon"></input>
+            </form>
         </div>
     </nav>
 
