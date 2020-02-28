@@ -882,6 +882,7 @@ footer .copyright {
     padding-left: 0;
   }
   #lg-dd-menu li {
+    width: 100px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -890,6 +891,7 @@ footer .copyright {
   #lg-dd-menu li a {
     color: white;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .lg-dd-item {
