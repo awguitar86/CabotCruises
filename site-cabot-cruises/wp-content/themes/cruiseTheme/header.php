@@ -35,9 +35,9 @@
     <nav id="lg-nav">
         <div class="nav-body">
             <?php wp_nav_menu(array('menu_id' => 'lg-dd-menu'))?>
-            <form method='get' action='' class="search">
+            <form method='get' action='/' class="search">
                 <input type="search" name='s' placeholder='search...'>
-                <input type='submit' value=''><img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search icon"></input>
+                <input class='search-btn' type='submit' value=''/>
             </form>
         </div>
     </nav>
