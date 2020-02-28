@@ -591,6 +591,19 @@ main {
   margin: 0;
 }
 
+.read-more {
+  display: block;
+  background: #197bbd;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-size: 10pt;
+  font-family: 'Montserrat', sans-serif;
+  width: 8rem;
+  border-radius: 4px;
+  float: right;
+}
+
 .cruises {
   width: 95%;
   display: flex;
