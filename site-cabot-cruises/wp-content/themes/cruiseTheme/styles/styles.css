@@ -431,9 +431,9 @@ header .phone-num {
 .search-btn {
   width: 30px;
   height: 100%;
-  background: url('/images/search-icon.png');
-  background-size: contain;
-  background-position: center;
+  background: url('/images/search-icon.png') no-repeat scroll 0 0 transparent;
+  color: #000000;
+  cursor: pointer;
 }
 #sm-nav div .search button {
   width: 30px;
