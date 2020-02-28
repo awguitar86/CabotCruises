@@ -428,6 +428,11 @@ header .phone-num {
   height: 100%;
   border: none;
 }
+.search-btn {
+  background-image: url('/images/search-icon.png');
+  background-size: contain;
+  background-position: center;
+}
 #sm-nav div .search button {
   width: 30px;
   height: 25px;

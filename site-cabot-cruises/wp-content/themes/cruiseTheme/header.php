@@ -15,10 +15,10 @@
         <div>
             <button id="menu" onclick="showMenu()">&#9776;</button>
             <button id="x" onclick="hideMenu()">X</button>
-            <div class="search">
-                <input type="search">
-                <button><img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search icon"></button>
-            </div>
+            <form method='get' action='/' class="search">
+                <input type="search" name='s' placeholder='search...'>
+                <input class='search-btn' type='submit' value=''/>
+            </form>
         </div>
         <div id="dd-menu">
           <?php wp_nav_menu()?>
