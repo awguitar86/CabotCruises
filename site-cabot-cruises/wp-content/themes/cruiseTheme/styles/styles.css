@@ -429,9 +429,11 @@ header .phone-num {
   border: none;
 }
 .search-btn {
+  display: block;
   width: 30px;
   height: 100%;
-  background: url('/images/search-icon.png') no-repeat scroll 0 0 transparent;
+  background: url('https://wordpress.austinwright.org/wp-content/themes/cruiseTheme/images/search-icon.png')
+    no-repeat scroll 0 0 transparent;
   color: #000000;
   cursor: pointer;
 }
