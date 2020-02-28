@@ -882,6 +882,17 @@ footer .copyright {
     list-style: none;
     padding-left: 0;
   }
+  #lg-dd-menu li {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #lg-dd-menu li a {
+    color: white;
+    text-decoration: none;
+  }
 
   .lg-dd-item {
     width: 25%;
