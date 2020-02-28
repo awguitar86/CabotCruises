@@ -432,6 +432,7 @@ header .phone-num {
   display: block;
   width: 30px;
   height: 100%;
+  background-color: lightgray;
   background-image: url('https://wordpress.austinwright.org/wp-content/themes/cruiseTheme/images/search-icon.png');
   background-size: contain;
   background-position: center;
