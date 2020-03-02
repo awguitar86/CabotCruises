@@ -59,9 +59,9 @@
     function showAgentMenu() {
         document.getElementsByClassName('sub.menu').style.display = "flex";
     }
-    $('#menu-item-52').children('a').click( function(){
+    $('.agent-menu').click( function(){
         console.log('Clicked Agent Menu')
-        document.getElementsByClassName('sub.menu').style.display = "flex";
+        // document.getElementsByClassName('sub.menu').style.display = "flex";
     })
     function showMenu() {
         menu.style.display = "none";
