@@ -472,6 +472,8 @@ header .phone-num {
 }
 
 .search {
+  display: flex;
+  align-items: center;
   width: 200px;
   height: 25px;
   margin-right: 10px;
