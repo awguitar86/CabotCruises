@@ -51,7 +51,6 @@
 <script>
     const agentMenu = document.getElementById('menu-item-52').firstElementChild;
     console.log(agentMenu);
-    agentMenu.id = 'agent-menu-link';
     const hamburger = document.getElementById("menu");
     const x = document.getElementById('x');
     const ddMenu = document.getElementById('dd-menu');
@@ -84,6 +83,10 @@
     function lgSubMenu() {
         subNav.style.display = subNav.style.display === 'none' ? 'flex' : 'none';
     }
+    function agentMenuTest() {
+        console.log('It Worked!');
+    }
+    agentMenu.addEventListener("click", agentMenuTest);
 
     if ($('.hero-lg').css('display') === 'none') {
         $('.hero-sm').slick({
