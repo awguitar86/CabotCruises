@@ -908,6 +908,9 @@ footer .copyright {
     display: flex;
     align-items: center;
   }
+  .agent-menu-item:hover {
+    background: #135e90;
+  }
   .agent-menu-item a {
     margin-left: 10px;
   }
