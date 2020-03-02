@@ -59,9 +59,10 @@
     function showAgentMenu() {
         document.getElementsByClassName('sub.menu').style.display = "flex";
     }
-    agentMenu.onclick = function(){
-        showAgentMenu();
-    }
+    $('#menu-item-52').children('a').click( function(){
+        console.log('Clicked Agent Menu')
+        document.getElementsByClassName('sub.menu').style.display = "flex";
+    })
     function showMenu() {
         menu.style.display = "none";
         x.style.display = "initial";
