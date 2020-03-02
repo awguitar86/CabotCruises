@@ -916,6 +916,8 @@ footer .copyright {
     margin-left: 10px;
     width: 90%;
     height: 100%;
+    display: flex;
+    align-items: center;
   }
 
   #sub-menu-nav {
