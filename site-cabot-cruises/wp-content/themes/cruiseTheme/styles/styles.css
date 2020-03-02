@@ -423,23 +423,23 @@ header .phone-num {
   height: 25px;
   margin-right: 10px;
 }
-#sm-nav div .search input {
+#sm-nav div .search .search-input {
   width: 170px;
   height: 100%;
   border: none;
 }
-#sm-nav div .search button {
+#sm-nav .search-btn {
   width: 30px;
   height: 25px;
   border: none;
   background: lightgrey;
+  background-image: url("../images/search-icon.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-#sm-nav div .search button img {
-  width: 20px;
-  height: 20px;
 }
 #sm-nav #dd-menu {
   width: 100%;

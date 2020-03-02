@@ -82,25 +82,25 @@ header {
       width: 200px;
       height: 25px;
       margin-right: 10px;
-      input {
+      .search-input {
         width: 170px;
         height: 100%;
         border: none;
       }
-      button {
-        width: 30px;
-        height: 25px;
-        border: none;
-        background: lightgrey;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        img {
-          width: 20px;
-          height: 20px;
-        }
-      }
     }
+  }
+  .search-btn {
+    width: 30px;
+    height: 25px;
+    border: none;
+    background: lightgrey;
+    background-image: url('../images/search-icon.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #dd-menu {
     width: 100%;
