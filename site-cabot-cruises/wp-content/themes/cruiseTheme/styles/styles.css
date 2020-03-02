@@ -868,23 +868,6 @@ footer .copyright {
     padding-left: 0;
   }
 
-  #menu-item-52:hover .sub-menu {
-    display: flex;
-  }
-
-  .sub-menu {
-    list-style: none;
-    padding-left: 10px;
-    width: 200px;
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    position: absolute;
-    top: 160px;
-    background: #197bbd;
-    z-index: 1000;
-  }
-
   .menu-main-menu-container {
     width: 100%;
   }
@@ -899,6 +882,30 @@ footer .copyright {
   .cruise-menu-item a {
     color: white;
     text-decoration: none;
+  }
+
+  #menu-item-52:hover .sub-menu {
+    display: flex;
+  }
+
+  .sub-menu {
+    list-style: none;
+    padding-left: 0;
+    width: 200px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 160px;
+    background: #197bbd;
+    z-index: 1000;
+  }
+
+  .agent-menu-item {
+    width: 100%;
+    height: 30px;
+    border-bottom: solid 1px white;
+    margin-left: 10px;
   }
 
   #sub-menu-nav {
