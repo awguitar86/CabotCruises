@@ -59,7 +59,7 @@
     function showAgentMenu() {
         document.getElementsByClassName('sub.menu').style.display = "flex";
     }
-    function agentMenu() {
+    function setAgentMenu() {
         agentMenu.setAttribute('onmousemove', showAgentMenu);
     }
     function showMenu() {
