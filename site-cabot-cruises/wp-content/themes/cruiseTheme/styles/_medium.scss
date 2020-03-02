@@ -112,29 +112,29 @@
   }
 }
 
-.search {
-  width: 200px;
-  height: 25px;
-  display: flex;
-  input {
-    width: 170px;
-    height: 100%;
-    border: none;
-  }
-  button {
-    width: 30px;
-    height: 25px;
-    border: none;
-    background: lightgrey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      width: 20px;
-      height: 20px;
-    }
-  }
-}
+// .search {
+//   width: 200px;
+//   height: 25px;
+//   display: flex;
+//   input {
+//     width: 170px;
+//     height: 100%;
+//     border: none;
+//   }
+//   button {
+//     width: 30px;
+//     height: 25px;
+//     border: none;
+//     background: lightgrey;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     img {
+//       width: 20px;
+//       height: 20px;
+//     }
+//   }
+// }
 
 #sm-nav {
   display: none;
