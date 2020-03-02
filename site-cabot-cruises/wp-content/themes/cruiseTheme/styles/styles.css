@@ -418,29 +418,6 @@ header .phone-num {
   margin-left: 10px;
   transition: ease-in-out 0.2s;
 }
-#sm-nav div .search {
-  width: 200px;
-  height: 25px;
-  margin-right: 10px;
-}
-#sm-nav div .search .search-input {
-  width: 170px;
-  height: 100%;
-  border: none;
-}
-#sm-nav .search-btn {
-  width: 30px;
-  height: 25px;
-  border: none;
-  background: lightgrey;
-  background-image: url("../images/search-icon.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 #sm-nav #dd-menu {
   width: 100%;
   display: none;
@@ -492,6 +469,31 @@ header .phone-num {
   align-items: center;
   justify-content: flex-start;
   padding-left: 40px;
+}
+
+.search {
+  width: 200px;
+  height: 25px;
+  margin-right: 10px;
+}
+.search .search-input {
+  width: 170px;
+  height: 100%;
+  border: none;
+}
+
+.search-btn {
+  width: 30px;
+  height: 25px;
+  border: none;
+  background: lightgrey;
+  background-image: url("../images/search-icon.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .active {
