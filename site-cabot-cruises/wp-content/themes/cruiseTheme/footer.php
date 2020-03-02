@@ -86,7 +86,7 @@
     function agentMenuTest() {
         console.log('It Worked!');
     }
-    agentMenu.addEventListener("click", agentMenuTest);
+    agentMenu.addEventListener("click", agentMenuTest());
 
     if ($('.hero-lg').css('display') === 'none') {
         $('.hero-sm').slick({
