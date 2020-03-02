@@ -86,7 +86,7 @@
     function agentMenuTest() {
         console.log('It Worked!');
     }
-    agentMenu.setAttribute('onmouseout', agentMenuTest);
+    agentMenu.setAttribute('onmouseout', agentMenuTest());
 
     if ($('.hero-lg').css('display') === 'none') {
         $('.hero-sm').slick({
