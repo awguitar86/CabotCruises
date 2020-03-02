@@ -873,6 +873,7 @@ footer .copyright {
   }
 
   .sub-menu {
+    list-style: none;
     width: 200px;
     display: none;
     flex-direction: column;
