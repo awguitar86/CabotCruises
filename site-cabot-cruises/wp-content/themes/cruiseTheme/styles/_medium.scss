@@ -27,7 +27,8 @@
   display: flex;
 }
 .sub-menu {
-  padding-left: 5px;
+  list-style: none;
+  padding-left: 10px;
   width: 200px;
   display: none;
   flex-direction: column;
