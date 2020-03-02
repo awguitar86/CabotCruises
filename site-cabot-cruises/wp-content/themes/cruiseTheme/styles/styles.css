@@ -887,14 +887,14 @@ footer .copyright {
     width: 100%;
   }
 
-  .menu-item {
+  .cruise-menu-item {
     width: 15%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
-  .menu-item a {
+  .cruise-menu-item a {
     color: white;
     text-decoration: none;
   }
