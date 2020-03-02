@@ -907,9 +907,10 @@ footer .copyright {
     border-bottom: solid 1px white;
     display: flex;
     align-items: center;
+    transition: ease-in-out 0.2s;
   }
   .agent-menu-item:hover {
-    background: #135e90;
+    background: #166ca6;
   }
   .agent-menu-item a {
     margin-left: 10px;
