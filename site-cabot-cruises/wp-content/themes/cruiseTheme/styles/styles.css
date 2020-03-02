@@ -871,11 +871,12 @@ footer .copyright {
   .sub-menu {
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
     position: absolute;
     top: 160px;
     background: #197bbd;
+    z-index: 1000;
   }
 
   .lg-dd-item {
