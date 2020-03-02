@@ -914,6 +914,8 @@ footer .copyright {
   }
   .agent-menu-item a {
     margin-left: 10px;
+    width: 90%;
+    height: 100%;
   }
 
   #sub-menu-nav {
