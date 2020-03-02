@@ -58,7 +58,11 @@
     $('.sub-menu').css('display', 'none');
     $('.agent-menu').children('a').click( function(){
         console.log('Clicked Agent Menu');
-        $('.sub-menu').css('display', 'flex');
+        if($('.sub-menu').css('display', 'none')){
+            $('.sub-menu').css('display', 'flex');
+        } else {
+            $('.sub-menu').css('display', 'none');
+        }
     })
     function showMenu() {
         menu.style.display = "none";
