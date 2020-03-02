@@ -50,7 +50,8 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick/slick.min.js"></script>
 <script>
     const agentMenu = document.getElementsByClassName('agent-menu').firstElementChild;
-    agentMenu.id = 'agent-menu-link';
+    console.log(agentMenu);
+    // agentMenu.id = 'agent-menu-link';
     const hamburger = document.getElementById("menu");
     const x = document.getElementById('x');
     const ddMenu = document.getElementById('dd-menu');
