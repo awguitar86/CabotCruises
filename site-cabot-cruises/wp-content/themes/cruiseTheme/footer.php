@@ -59,7 +59,7 @@
     function showAgentMenu() {
         document.getElementsByClassName('sub.menu').style.display = "flex";
     }
-    $('.agent-menu').click( function(){
+    $('.agent-menu').children('a').click( function(){
         console.log('Clicked Agent Menu')
         // document.getElementsByClassName('sub.menu').style.display = "flex";
     })
