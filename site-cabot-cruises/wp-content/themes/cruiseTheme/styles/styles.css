@@ -868,7 +868,7 @@ footer .copyright {
     padding-left: 0;
   }
 
-  #menu-item-52:hover ul {
+  #menu-item-52:hover .sub-menu {
     display: flex;
   }
 
