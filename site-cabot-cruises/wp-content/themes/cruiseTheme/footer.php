@@ -49,19 +49,15 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick/slick.min.js"></script>
 <script>
-    const agentMenu = document.getElementById('menu-item-52').firstElementChild;
     const hamburger = document.getElementById("menu");
     const x = document.getElementById('x');
     const ddMenu = document.getElementById('dd-menu');
     const ddSubMenu = document.getElementById('dd-sub-menu');
     const subNav = document.getElementById('sub-nav');
     const lgDdSubMenu = document.getElementById('lg-dd-menu');
-    function showAgentMenu() {
-        document.getElementsByClassName('sub.menu').style.display = "flex";
-    }
     $('.agent-menu').children('a').click( function(){
         console.log('Clicked Agent Menu')
-        document.getElementsByClassName('sub.menu').style.display = "flex";
+        document.getElementsByClassName('sub-menu').style.display = "flex";
     })
     function showMenu() {
         menu.style.display = "none";
