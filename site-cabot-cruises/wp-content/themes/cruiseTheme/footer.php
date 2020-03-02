@@ -55,9 +55,10 @@
     const ddSubMenu = document.getElementById('dd-sub-menu');
     const subNav = document.getElementById('sub-nav');
     const lgDdSubMenu = document.getElementById('lg-dd-menu');
+    $('.sub-menu').css('display', 'none');
     $('.agent-menu').children('a').click( function(){
-        console.log('Clicked Agent Menu')
-        document.getElementsByClassName('sub-menu').style.display = "flex";
+        console.log('Clicked Agent Menu');
+        $('.sub-menu').css('display', 'flex');
     })
     function showMenu() {
         menu.style.display = "none";
