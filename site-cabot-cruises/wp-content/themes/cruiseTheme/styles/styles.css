@@ -861,6 +861,7 @@ footer .copyright {
 
   #lg-dd-menu {
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -872,6 +873,7 @@ footer .copyright {
 
   .menu-main-menu-container {
     width: 100%;
+    height: 100%;
   }
 
   .cruise-menu-item {
