@@ -155,6 +155,30 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+// ABOUT US MAIN
+.about-us {
+  width: 95%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  p {
+    margin: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .p1 {
+    padding-right: 20px;
+    border-right: 1px solid black;
+  }
+  .p3 {
+    padding-top: 20px;
+    border-top: 1px solid black;
+    grid-column: 1 / -1;
+  }
+}
+
 // CRUISE MAIN
 .cruises {
   grid-template-columns: repeat(3, 1fr);

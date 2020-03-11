@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -597,6 +597,21 @@ main {
   margin: 0;
 }
 
+.about-us {
+  width: 95%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+}
+.about-us p {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
 .cruises {
   width: 95%;
   display: grid;
@@ -810,7 +825,7 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 48rem) {
-  @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
   #lg-nav {
     display: flex;
     justify-content: center;
@@ -947,6 +962,29 @@ footer .copyright {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .about-us {
+    width: 95%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .about-us p {
+    margin: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .about-us .p1 {
+    padding-right: 20px;
+    border-right: 1px solid black;
+  }
+  .about-us .p3 {
+    padding-top: 20px;
+    border-top: 1px solid black;
+    grid-column: 1/-1;
+  }
+
   .cruises {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -988,7 +1026,7 @@ footer .copyright {
 }
 /* end of media query */
 @media only screen and (min-width: 75rem) {
-  @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
   header {
     width: 75rem;
   }
@@ -1029,6 +1067,22 @@ footer .copyright {
 
   .blogH4 {
     font-size: 16pt;
+  }
+
+  .about-us {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .about-us .p1,
+.about-us .p2 {
+    padding-right: 20px;
+    border-right: 1px solid black;
+  }
+  .about-us .p3 {
+    padding-top: 0;
+    border-top: none;
+    grid-column: 3;
   }
 
   .cruises {

@@ -35,6 +35,23 @@ main {
   font-size: 16pt;
 }
 
+// ABOUT US MAIN
+.about-us {
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  .p1,
+  .p2 {
+    padding-right: 20px;
+    border-right: 1px solid black;
+  }
+  .p3 {
+    padding-top: 0;
+    border-top: none;
+    grid-column: 3;
+  }
+}
+
 // CRUISES MAIN
 .cruises {
   width: 100%;
