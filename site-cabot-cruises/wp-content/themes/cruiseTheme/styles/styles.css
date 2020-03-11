@@ -498,6 +498,16 @@ header .phone-num {
   font-family: "Montserrat", sans-serif;
 }
 
+.sub-menu {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #197bbd;
+}
+
 .search {
   display: flex;
   align-items: center;
