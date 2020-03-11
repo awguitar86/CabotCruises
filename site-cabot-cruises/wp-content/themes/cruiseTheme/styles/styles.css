@@ -429,6 +429,8 @@ header .phone-num {
   border-top: solid 1px white;
   transition: ease-in-out 0.2s;
   background: #197bbd;
+  position: absolute;
+  top: 50px;
   z-index: 1000;
 }
 #sm-nav #dd-menu .dd-item {
@@ -471,10 +473,15 @@ header .phone-num {
   padding-left: 40px;
 }
 
+.sm-nav-wrap {
+  height: 50px;
+}
+
 #menu-main-menu {
   list-style: none;
   padding-left: 0;
   width: 100%;
+  margin: 0;
 }
 #menu-main-menu li {
   width: 100%;
