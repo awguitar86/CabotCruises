@@ -510,7 +510,7 @@ header .phone-num {
 }
 
 .agent-menu-item {
-  width: 90%;
+  width: 90% !important;
   border-bottom: solid 1px white;
   display: flex;
   align-items: center;
