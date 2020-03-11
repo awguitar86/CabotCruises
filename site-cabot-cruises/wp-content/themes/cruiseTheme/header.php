@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav id="sm-nav">
-        <div>
+        <div class="sm-nav-wrap">
             <button id="menu" onclick="showMenu()">&#9776;</button>
             <button id="x" onclick="hideMenu()">X</button>
             <form method='get' action='/' class="search">
