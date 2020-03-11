@@ -271,6 +271,34 @@ main {
   }
 }
 
+// LOCATION MAIN
+.location {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.location-info {
+  margin-bottom: 20px;
+  p,
+  a {
+    font-family: $font;
+  }
+}
+.map {
+  position: relative;
+  padding-bottom: 100%; // This is the aspect ratio
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 // CRUISES MAIN
 .cruises {
   width: 95%;

@@ -179,6 +179,11 @@
   }
 }
 
+// LOCATION MAIN
+.map {
+  padding-bottom: 75%; // This is the aspect ratio
+}
+
 // CRUISE MAIN
 .cruises {
   grid-template-columns: repeat(3, 1fr);
