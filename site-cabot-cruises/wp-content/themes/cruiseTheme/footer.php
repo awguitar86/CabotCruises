@@ -48,6 +48,7 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
 <script>
     const hamburger = document.getElementById("menu");
     const x = document.getElementById('x');
@@ -90,7 +91,6 @@
     function lgSubMenu() {
         subNav.style.display = subNav.style.display === 'none' ? 'flex' : 'none';
     }
-
     if ($('.hero-lg').css('display') === 'none') {
         $('.hero-sm').slick({
             arrows: false,
@@ -109,7 +109,6 @@
             toucheToMove: true
         })
     }
-
     $(document).ready(function () {
         var url = window.location;
         $('ul li a[href="'+ url +'"]').addClass('active');
@@ -117,6 +116,20 @@
              return this.href == url;
         }).addClass('active');
     });
+    (function(){
+        let lazyLoadInstances = [];
+        let callback_enter = function(el) {
+            let oneLL = new LazyLoad({
+                container: el
+            });
+            lazyLoadInstances.push(oneLL);
+        }
+        let lazyLazy = new LazyLoad({
+            elements_selector: ".lazyContainer",
+            callback_enter: callback_enter
+        });
+        console.log("load");
+    })();
 </script>
 <script type="application/ld+json">
     {
