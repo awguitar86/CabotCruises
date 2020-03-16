@@ -952,7 +952,7 @@ footer .copyright {
   .cruise-menu-item a {
     color: white;
     text-decoration: none;
-    font-size: 11pt;
+    font-size: 12pt;
   }
 
   #menu-item-52:hover .sub-menu {
@@ -1137,11 +1137,8 @@ footer .copyright {
   }
 
   .cruise-menu-item {
-    width: 15%;
+    width: 10%;
     margin-right: 0;
-  }
-  .cruise-menu-item a {
-    font-size: 12pt;
   }
 
   main {
