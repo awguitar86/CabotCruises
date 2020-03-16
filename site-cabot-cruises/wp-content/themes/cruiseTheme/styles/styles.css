@@ -943,15 +943,16 @@ footer .copyright {
   }
 
   .cruise-menu-item {
-    width: 15%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-right: 20px;
   }
   .cruise-menu-item a {
     color: white;
     text-decoration: none;
+    font-size: 11pt;
   }
 
   #menu-item-52:hover .sub-menu {
@@ -1133,6 +1134,14 @@ footer .copyright {
 
   #sub-menu-nav {
     width: 13%;
+  }
+
+  .cruise-menu-item {
+    width: 15%;
+    margin-right: 0;
+  }
+  .cruise-menu-item a {
+    font-size: 12pt;
   }
 
   main {
