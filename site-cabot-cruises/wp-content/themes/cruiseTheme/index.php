@@ -1,17 +1,5 @@
 
         <div class="hero-lg">
-            <div id="smCruiseShip1">
-                <img src="/images/cruiseShipSm1.jpg" alt="Cruise Ship">
-            </div>
-            <div id="smCruiseShip2">
-                <img src="/images/cruiseShipSm2.jpg" alt="Cruise Ship">
-            </div>
-            <div id="smCruiseShip3">
-                <img src="/images/cruiseShipSm3.jpg" alt="Cruise Ship">
-            </div>
-            <div id="smCruiseShip4">
-                <img src="/images/cruiseShipSm4.jpg" alt="Cruise Ship">
-            </div>
             <div id="lgCruiseShip1">
                 <img src="/images/cruiseShip1.jpg" alt="Cruise Ship">
             </div>

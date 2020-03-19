@@ -242,23 +242,6 @@ main {
   display: flex;
   align-items: flex-end;
 }
-#smCruiseShip1,
-#smCruiseShip2,
-#smCruiseShip3,
-#smCruiseShip4 {
-  width: 100%;
-  img {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-#lgCruiseShip1,
-#lgCruiseShip2,
-#lgCruiseShip3,
-#lgCruiseShip4 {
-  display: none;
-}
 
 .blog-articles {
   width: 95%;
