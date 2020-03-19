@@ -565,6 +565,45 @@ main {
   margin-bottom: 30px;
 }
 
+.hero-lg {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+#cruiseShip1 {
+  width: 100%;
+  background-image: url("../images/cruiseShip1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#cruiseShip2 {
+  width: 100%;
+  background-image: url("../images/cruiseShip2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#cruiseShip2 {
+  width: 100%;
+  background-image: url("../images/cruiseShip3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#cruiseShip2 {
+  width: 100%;
+  background-image: url("../images/cruiseShip4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .blog-articles {
   width: 95%;
   display: flex;
@@ -1031,13 +1070,6 @@ footer .copyright {
 
   #sm-nav {
     display: none;
-  }
-
-  .hero-lg {
-    width: 100%;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
   }
 
   .blog-teasers {

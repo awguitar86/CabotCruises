@@ -1,9 +1,9 @@
 
         <div class="hero-lg">
-            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip1.jpg" alt="Cruise Ship" class="hero1"></div>
-            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip2.jpg" alt="Cruise Ship" class="hero2"></div>
-            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip3.jpg" alt="Cruise Ship" class="hero3"></div>
-            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip4.jpg" alt="Cruise Ship" class="hero4"></div>
+            <div id="cruiseShip1"></div>
+            <div id="cruiseShip2"></div>
+            <div id="cruiseShip3"></div>
+            <div id="cruiseShip4"></div>
         </div>
         <div class="blog-articles">
             <h2>Blog Articles</h2>
