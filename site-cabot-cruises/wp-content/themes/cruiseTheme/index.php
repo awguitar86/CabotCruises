@@ -1,17 +1,15 @@
 
+        <div class="hero-sm">
+            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShipSm1.jpg" alt="Cruise Ship" class="heroSm1"></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShipSm2.jpg" alt="Cruise Ship" class="heroSm2"></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShipSm3.jpg" alt="Cruise Ship" class="heroSm3"></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShipSm4.jpg" alt="Cruise Ship" class="heroSm4"></div>
+        </div>
         <div class="hero-lg">
-            <div id="lgCruiseShip1">
-                <img src="/images/cruiseShip1.jpg" alt="Cruise Ship">
-            </div>
-            <div id="lgCruiseShip2">
-                <img src="/images/cruiseShip2.jpg" alt="Cruise Ship">
-            </div>
-            <div id="lgCruiseShip3">
-                <img src="/images/cruiseShip3.jpg" alt="Cruise Ship">
-            </div>
-            <div id="lgCruiseShip4">
-                <img src="/images/cruiseShip4.jpg" alt="Cruise Ship">
-            </div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip1.jpg" alt="Cruise Ship" class="hero1"></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip2.jpg" alt="Cruise Ship" class="hero2"></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip3.jpg" alt="Cruise Ship" class="hero3"></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip4.jpg" alt="Cruise Ship" class="hero4"></div>
         </div>
         <div class="blog-articles">
             <h2>Blog Articles</h2>
