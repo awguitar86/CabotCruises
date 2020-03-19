@@ -91,24 +91,14 @@
     function lgSubMenu() {
         subNav.style.display = subNav.style.display === 'none' ? 'flex' : 'none';
     }
-    if ($('.hero-lg').css('display') === 'none') {
-        $('.hero-sm').slick({
+        $('.hero-slider').slick({
             arrows: false,
             dots: true,
             draggable: true,
             swipe: true,
-            toucheToMove: true
+            toucheToMove: true,
+            cssEase: 'ease-out'
         })
-    }
-    if ($('.hero-sm').css('display') === 'none') {
-        $('.hero-lg').slick({
-            arrows: false,
-            dots: true,
-            draggable: true,
-            swipe: true,
-            toucheToMove: true
-        })
-    }
     $(document).ready(function () {
         var url = window.location;
         $('ul li a[href="'+ url +'"]').addClass('active');
