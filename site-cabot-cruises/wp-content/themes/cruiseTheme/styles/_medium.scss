@@ -141,16 +141,6 @@
   display: none;
 }
 
-.hero-sm {
-  display: none;
-}
-.hero-lg {
-  width: 100%;
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-}
-
 // HOME MAIN
 .blog-teasers {
   grid-template-columns: repeat(3, 1fr);
