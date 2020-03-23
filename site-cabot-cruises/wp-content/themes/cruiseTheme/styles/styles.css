@@ -828,7 +828,7 @@ main {
   transition: ease-in-out 0.2s;
 }
 .wpcf7-submit:hover {
-  background: light(#197bbd, 10%);
+  background: #2797e2;
 }
 
 footer {

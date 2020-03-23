@@ -484,7 +484,7 @@ main {
   cursor: pointer;
   transition: ease-in-out 0.2s;
   &:hover {
-    background: light($prime, 10%);
+    background: lighten($prime, 10%);
   }
 }
 
