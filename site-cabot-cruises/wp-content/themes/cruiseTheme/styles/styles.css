@@ -810,12 +810,14 @@ main {
 .wpcf7-form-control {
   width: 100%;
   height: 40px;
+  border-radius: 5px;
 }
 
 .wpcf7-submit {
   background: #197bbd;
   color: white;
   font-family: "Montserrat", sans-serif;
+  border: none;
 }
 
 footer {

@@ -469,11 +469,13 @@ main {
 .wpcf7-form-control {
   width: 100%;
   height: 40px;
+  border-radius: 5px;
 }
 .wpcf7-submit {
   background: $prime;
   color: white;
   font-family: $font;
+  border: none;
 }
 
 // FOOTER
