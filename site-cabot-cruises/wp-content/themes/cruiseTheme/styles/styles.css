@@ -824,6 +824,11 @@ main {
   color: white;
   font-family: "Montserrat", sans-serif;
   border: none;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.wpcf7-submit:hover {
+  background: light(#197bbd, 10%);
 }
 
 footer {

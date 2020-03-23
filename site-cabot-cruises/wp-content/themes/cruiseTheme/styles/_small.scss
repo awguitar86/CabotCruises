@@ -481,6 +481,11 @@ main {
   color: white;
   font-family: $font;
   border: none;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  &:hover {
+    background: light($prime, 10%);
+  }
 }
 
 // FOOTER
