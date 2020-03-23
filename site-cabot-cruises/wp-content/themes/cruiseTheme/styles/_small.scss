@@ -511,6 +511,13 @@ main {
 }
 .post-content-text {
   margin-left: 10px;
+  h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0;
+  }
 }
 
 // FOOTER

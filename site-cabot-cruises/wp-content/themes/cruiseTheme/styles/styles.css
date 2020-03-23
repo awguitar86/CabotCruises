@@ -856,6 +856,13 @@ main {
 .post-content-text {
   margin-left: 10px;
 }
+.post-content-text h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.post-content-text p {
+  margin: 0;
+}
 
 footer {
   width: 100vw;
