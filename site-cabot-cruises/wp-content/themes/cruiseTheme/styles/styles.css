@@ -833,6 +833,20 @@ main {
 
 .wpnawfree-plugin {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.news {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.news-inner-wrap-view {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .news-content {
