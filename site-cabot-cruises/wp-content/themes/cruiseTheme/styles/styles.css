@@ -857,7 +857,7 @@ main {
 }
 
 .date-post {
-  width: 75px;
+  width: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1301,6 +1301,10 @@ footer .copyright {
     width: 75rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, auto);
+  }
+
+  .news-content {
+    width: 100%;
   }
 }
 /* end of media query */
