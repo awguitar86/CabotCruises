@@ -886,9 +886,6 @@ main {
 
 .news-wrap {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .news-wrap img {
   width: 100%;
