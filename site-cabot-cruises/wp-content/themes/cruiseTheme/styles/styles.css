@@ -885,11 +885,10 @@ main {
 }
 
 .news-more-link {
-  text-align: right;
-  width: 100px;
-  height: 35px;
-  background: #197bbd;
-  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 footer {
