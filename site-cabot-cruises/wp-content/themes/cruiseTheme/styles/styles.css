@@ -857,6 +857,7 @@ main {
 }
 
 .date-post {
+  width: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -881,6 +882,14 @@ main {
 }
 .post-content-text p {
   margin: 0;
+}
+
+.news-more-link {
+  text-align: right;
+  width: 100px;
+  height: 35px;
+  background: #197bbd;
+  color: white;
 }
 
 footer {

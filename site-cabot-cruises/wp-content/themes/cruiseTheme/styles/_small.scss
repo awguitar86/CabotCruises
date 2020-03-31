@@ -511,6 +511,7 @@ main {
   justify-content: center;
 }
 .date-post {
+  width: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -534,6 +535,13 @@ main {
   p {
     margin: 0;
   }
+}
+.news-more-link {
+  text-align: right;
+  width: 100px;
+  height: 35px;
+  background: $prime;
+  color: white;
 }
 
 // FOOTER
