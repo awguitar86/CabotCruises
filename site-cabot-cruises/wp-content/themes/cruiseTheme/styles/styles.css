@@ -884,13 +884,6 @@ main {
   margin: 0;
 }
 
-.news-more-link {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
 footer {
   width: 100vw;
   background: #bbbbbb;
