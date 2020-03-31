@@ -511,12 +511,9 @@ main {
   justify-content: center;
 }
 .date-post {
-  width: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: solid 2px $second;
-  border-radius: 5px;
   padding: 5px 10px;
   h2 {
     margin: 0;
@@ -528,6 +525,8 @@ main {
 }
 .post-content-text {
   margin-left: 10px;
+  padding-left: 10px;
+  border-left: solid 1px $grey;
   h3 {
     margin: 0;
     margin-bottom: 10px;
