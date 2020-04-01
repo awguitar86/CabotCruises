@@ -1229,11 +1229,11 @@ footer .copyright {
     width: 33.3%;
     height: 100%;
     float: right;
-    margin: 0px 20px 5px 5px;
+    margin: 0px 0px 4px 4px;
   }
 
   .news-text {
-    margin: 4px 4px 4px 20px;
+    margin-right: 4px;
   }
 
   .footer-info {
