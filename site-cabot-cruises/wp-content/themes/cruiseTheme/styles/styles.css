@@ -908,11 +908,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 35px;
+  width: 100px;
+  height: 30px;
   background: #197bbd;
   color: white;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
 footer {
