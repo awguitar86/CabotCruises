@@ -555,6 +555,16 @@ main {
     font-family: $font;
   }
 }
+.news-more-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 35px;
+  background: $prime;
+  color: white;
+  font-family: $font;
+}
 
 // FOOTER
 footer {

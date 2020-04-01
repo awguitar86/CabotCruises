@@ -904,6 +904,17 @@ main {
   font-family: "Montserrat", sans-serif;
 }
 
+.news-more-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 35px;
+  background: #197bbd;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
 footer {
   width: 100vw;
   background: #bbbbbb;
