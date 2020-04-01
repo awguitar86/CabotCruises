@@ -860,7 +860,7 @@ main {
 }
 
 .date-post {
-  width: 15%;
+  width: 20%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -878,7 +878,7 @@ main {
 }
 
 .post-content-text {
-  width: 85%;
+  width: 80%;
   padding-left: 10px;
   border-left: solid 1px #bbbbbb;
 }
@@ -1249,6 +1249,14 @@ footer .copyright {
     margin-right: 4px;
   }
 
+  .date-post {
+    width: 15%;
+  }
+
+  .post-content-text {
+    width: 85%;
+  }
+
   .footer-info {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
@@ -1357,6 +1365,14 @@ footer .copyright {
 
   .news-text {
     width: 100%;
+  }
+
+  .date-post {
+    width: 10%;
+  }
+
+  .post-content-text {
+    width: 90%;
   }
 }
 /* end of media query */
