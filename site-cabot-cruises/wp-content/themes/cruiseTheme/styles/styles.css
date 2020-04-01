@@ -867,7 +867,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 5px 10px;
-  background: #bbbbbb;
+  background: #d5d5d5;
 }
 .date-post h2 {
   margin: 0;
@@ -880,7 +880,6 @@ main {
 .post-content-text {
   width: 80%;
   padding-left: 10px;
-  border-left: solid 1px #bbbbbb;
 }
 .post-content-text h3 {
   margin: 0;

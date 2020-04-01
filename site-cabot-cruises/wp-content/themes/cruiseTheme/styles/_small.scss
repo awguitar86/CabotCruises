@@ -521,7 +521,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 5px 10px;
-  background: $grey;
+  background: lighten($grey, 10%);
   h2 {
     margin: 0;
     margin-bottom: 10px;
@@ -533,7 +533,6 @@ main {
 .post-content-text {
   width: 80%;
   padding-left: 10px;
-  border-left: solid 1px $grey;
   h3 {
     margin: 0;
     margin-bottom: 10px;
