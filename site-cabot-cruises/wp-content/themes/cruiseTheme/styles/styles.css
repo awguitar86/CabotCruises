@@ -867,9 +867,11 @@ main {
   align-items: center;
   justify-content: center;
   padding: 5px 10px;
-  background: #bbbbbb h2;
-  background-margin: 0;
-  background-margin-bottom: 10px;
+  background: #bbbbbb;
+}
+.date-post h2 {
+  margin: 0;
+  margin-bottom: 10px;
 }
 .date-post p {
   margin: 0;
