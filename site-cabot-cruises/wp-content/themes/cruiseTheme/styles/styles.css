@@ -564,6 +564,10 @@ main {
   align-items: center;
   margin-bottom: 30px;
 }
+main h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20pt;
+}
 
 .hero-slider {
   width: 100%;
@@ -1170,6 +1174,10 @@ footer .copyright {
 
   .blog-teasers {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  main h1 {
+    font-size: 32px;
   }
 
   .about-us {
