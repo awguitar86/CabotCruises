@@ -458,6 +458,14 @@ main {
 }
 
 // CONTACT FORM
+.contact-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-text {
+  width: 95%;
+}
 .wpcf7 {
   width: 100%;
   display: flex;
