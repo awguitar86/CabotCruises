@@ -1385,6 +1385,10 @@ footer .copyright {
     grid-template-rows: repeat(1, auto);
   }
 
+  .contact-wrap {
+    width: 100%;
+  }
+
   .news-content {
     width: 100%;
   }
