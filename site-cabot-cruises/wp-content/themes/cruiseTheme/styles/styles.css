@@ -1252,6 +1252,17 @@ footer .copyright {
     width: 50%;
   }
 
+  .contact-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contact-text {
+    width: 100%;
+  }
+
   .wpcf7 {
     width: 410px;
   }
