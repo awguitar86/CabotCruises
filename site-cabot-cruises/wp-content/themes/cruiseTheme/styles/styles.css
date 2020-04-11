@@ -936,7 +936,7 @@ main h1 {
 }
 
 .cruise-table {
-  width: 100%;
+  width: 95%;
   margin-top: 30px;
 }
 .cruise-table thead {
@@ -1429,6 +1429,10 @@ footer .copyright {
 
   .post-content-text {
     width: 90%;
+  }
+
+  .cruise-table {
+    width: 100%;
   }
 }
 /* end of media query */
