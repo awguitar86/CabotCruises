@@ -943,10 +943,10 @@ main h1 {
   background: #197bbd;
   color: white;
 }
-.cruise-table thead tr {
+.cruise-table thead tr td {
   padding: 10px 0px;
 }
-.cruise-table tbody tr {
+.cruise-table tbody tr td {
   padding: 7.5px 5px;
 }
 

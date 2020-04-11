@@ -592,12 +592,16 @@ main {
     background: $prime;
     color: white;
     tr {
-      padding: 10px 0px;
+      td {
+        padding: 10px 0px;
+      }
     }
   }
   tbody {
     tr {
-      padding: 7.5px 5px;
+      td {
+        padding: 7.5px 5px;
+      }
     }
   }
 }
