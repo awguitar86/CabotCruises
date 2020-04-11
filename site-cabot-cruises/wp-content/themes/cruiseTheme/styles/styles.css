@@ -943,7 +943,7 @@ main h1 {
   background: #197bbd;
   color: white;
 }
-.cruise-table thead tr td {
+.cruise-table thead tr th {
   padding: 10px 0px;
 }
 .cruise-table tbody tr td {
