@@ -595,6 +595,10 @@ main {
 .even {
   background: $grey;
 }
+.odd,
+.even {
+  padding: 7.5px 5px;
+}
 
 // FOOTER
 footer {
