@@ -591,14 +591,18 @@ main {
   thead {
     background: $prime;
     color: white;
+    tr {
+      padding: 10px 0px;
+    }
+  }
+  tbody {
+    tr {
+      padding: 7.5px 5px;
+    }
   }
 }
 .even {
   background: $grey;
-}
-.odd,
-.even {
-  padding: 7.5px 5px;
 }
 
 // FOOTER
