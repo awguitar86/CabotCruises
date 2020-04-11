@@ -584,6 +584,18 @@ main {
   text-decoration: none;
 }
 
+// CRUISE TABLE
+.cruise-table {
+  width: 100%;
+  thead {
+    background: $prime;
+    color: white;
+  }
+}
+.odd {
+  background: $grey;
+}
+
 // FOOTER
 footer {
   width: 100vw;

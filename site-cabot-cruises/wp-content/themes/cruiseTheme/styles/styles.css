@@ -935,6 +935,18 @@ main h1 {
   text-decoration: none;
 }
 
+.cruise-table {
+  width: 100%;
+}
+.cruise-table thead {
+  background: #197bbd;
+  color: white;
+}
+
+.odd {
+  background: #bbbbbb;
+}
+
 footer {
   width: 100vw;
   background: #bbbbbb;
