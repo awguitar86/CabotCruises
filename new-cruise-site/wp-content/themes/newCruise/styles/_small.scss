@@ -1,0 +1,54 @@
+/* Prevent adjustments of font size when orientation changes  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+/* apply a natural box layout model to all elements */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+// NAV
+#menu-main-menu {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+  margin: 0;
+  li {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    border-bottom: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-size: 14pt;
+      font-family: $font;
+    }
+  }
+}
+.active {
+  border-bottom: solid 1px white;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
