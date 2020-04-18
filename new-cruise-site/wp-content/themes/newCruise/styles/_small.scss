@@ -22,6 +22,13 @@ body {
   margin: 0;
 }
 
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 // NAV
 #menu-main-menu {
   list-style: none;
