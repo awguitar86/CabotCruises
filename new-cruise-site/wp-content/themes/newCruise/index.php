@@ -5,4 +5,6 @@
   <?php the_content(); ?>
 <?php endwhile; ?>
 
+<h3>Welcome to Cabot Cruises</h3>
+
 <?php get_footer() ?>
