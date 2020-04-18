@@ -28,6 +28,22 @@
   </div>
 </div>
 
-
+<div>
+  <h1>Welcome to Cabot Cruises Bootstrap website!</h1>
+  <p>
+    We have built this website using Bootstrap which has turned out very well. Bootstrap has many elements and components
+    that are very useful for many things on a website. We will list a few things that we use on this website that we really like
+    from Bootstrap.
+  </p>
+  <h2>Bootstrap Elements</h2>
+  <ul class="list-group">
+    <li class="list-group-item">Carousel</li>
+    <li class="list-group-item">Navbar</li>
+    <li class="list-group-item">Cards</li>
+    <li class="list-group-item">Forms</li>
+    <li class="list-group-item">List Group</li>
+    <li class="list-group-item">Helper classes for row, column, margin, padding, flexbox, and sizing.</li>
+  </ul>
+</div>
 
 <?php get_footer() ?>
