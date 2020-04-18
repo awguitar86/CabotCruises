@@ -20,7 +20,7 @@
                 Subscribe to our email list and stay up-to-date with our honest offers and latest specials.
             </p>
             <input type="email" class="w-100 rounded-lg border-0 mb-2" style="height:40px;">
-            <button class="w-100 rounded-lg bg-primary text-white border-0" style="height:40px;">Subscribe</button>
+            <button type="button" class="btn btn-primary">Subscribe</button>
         </div>
         <div class="col">
             <h2>Why Cabot Cruises</h2>
