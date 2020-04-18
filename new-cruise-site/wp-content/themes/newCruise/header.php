@@ -14,7 +14,7 @@
         srcset="<?php echo get_template_directory_uri(); ?>/images/shipLogoX2.png 768w,
         <?php echo get_template_directory_uri(); ?>/images/shipLogoX3.png 1080w"
         alt="ship logo"
-        style="width:50px; height:50px;"
+        style="width:75px; height:75px;"
       >
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
