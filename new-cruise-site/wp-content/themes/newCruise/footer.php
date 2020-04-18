@@ -34,7 +34,7 @@
             </p>
         </div>
     </div>
-    <div class="container-fluid bg-dark d-flex align-items-center justify-content-center">
+    <div class="container-fluid bg-dark d-flex align-items-center justify-content-center pl-0 pr-0">
         <div class="row">
             <a><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt="facebook logo"></a>
             <a><img src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="instagram logo"></a>
