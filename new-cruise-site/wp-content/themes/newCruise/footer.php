@@ -36,11 +36,11 @@
     </div>
     <div class="container-fluid bg-dark d-flex align-items-center justify-content-center pl-0 pr-0">
         <div class="row">
-            <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt="facebook logo">
-            <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="instagram logo">
-            <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/images/twitter.svg" alt="twitter logo">
-            <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/images/youtube.svg" alt="youtube logo">
-            <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin logo">
+            <img class="social-icon" src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt="facebook logo">
+            <img class="social-icon" src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="instagram logo">
+            <img class="social-icon" src="<?php echo get_template_directory_uri(); ?>/images/twitter.svg" alt="twitter logo">
+            <img class="social-icon" src="<?php echo get_template_directory_uri(); ?>/images/youtube.svg" alt="youtube logo">
+            <img class="social-icon" src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin logo">
         </div>
     </div>
     <p class="container-fluid d-flex align-items-center justify-content-center">© 2020 &bull; Austin Wright &bull; <a href="#">Login</a></p>
