@@ -32,7 +32,7 @@
           <a class="nav-link" href="/features">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="/contact" tabindex="-1" aria-disabled="true">Contact</a>
+          <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
     </div>
