@@ -1,7 +1,7 @@
 </main>
 
 <footer class="container-fluid bg-secondary d-flex flex-column align-items-center justify-content-between pl-0 pr-0 text-white">
-    <div class="container-xl row">
+    <div class="container-xl row mt-4 mb-4">
         <div class="col">
             <h2>Contact Us</h2>
             <p>
@@ -34,7 +34,7 @@
             </p>
         </div>
     </div>
-    <div class="container-fluid bg-dark d-flex align-items-center justify-content-center pl-0 pr-0">
+    <div class="container-fluid bg-dark d-flex align-items-center justify-content-center pl-0 pr-0 pt-1 pb-1">
         <div class="row">
             <img class="social-icon" src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt="facebook logo">
             <img class="social-icon" src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="instagram logo">
