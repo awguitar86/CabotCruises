@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/styles/styles.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
     <a class="navbar-brand" href="/home">
       <img
         src="./images/shipLogoX1.png"
