@@ -10,7 +10,7 @@
                 Spanish Fork, UT 84660
             </p>
             <h2>Phone:</h2>
-            <p><a href="tel:+18005559450">1-800-555-9450</a></p>
+            <p><a href="tel:+18005559450" class="text-white">1-800-555-9450</a></p>
             <h2>Hours of Operation:</h2>
             <p>Monday - Friday 9am - 5pm</p>
         </div>
@@ -43,7 +43,7 @@
             <img class="social-icon" src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin logo">
         </div>
     </div>
-    <p class="container-fluid d-flex align-items-center justify-content-center mt-3">© 2020 &bull; Austin Wright &bull; <a href="#">Login</a></p>
+    <p class="container-fluid d-flex align-items-center justify-content-center mt-3">© 2020 &bull; Austin Wright &bull; <a href="#" class="text-white">Login</a></p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
