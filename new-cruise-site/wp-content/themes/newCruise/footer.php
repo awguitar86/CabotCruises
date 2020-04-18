@@ -1,8 +1,8 @@
 </main>
 
-<footer>
-    <div class="grid-x">
-        <div class="cell large-4 ">
+<footer class="container-fluid">
+    <div class="container-xl row bg-secondary">
+        <div class="col">
             <h2>Contact Us</h2>
             <p>
                 Cabot Cruises<br>
@@ -14,7 +14,7 @@
             <h2>Hours of Operation:</h2>
             <p>Monday - Friday 9am - 5pm</p>
         </div>
-        <div class="newsletter">
+        <div class="col">
             <h2>News Letter</h2>
             <p>
                 Subscribe to our email list and stay up-to-date with our honest offers and latest specials.
@@ -22,7 +22,7 @@
             <input type="email">
             <button>Subscribe</button>
         </div>
-        <div class="why-cabot">
+        <div class="col">
             <h2>Why Cabot Cruises</h2>
             <p>
                 Cabot Cruises is a travel agency providing the best cruise deals on our online travel website.
@@ -34,8 +34,8 @@
             </p>
         </div>
     </div>
-    <div class="social-wrap">
-        <div class="social-icons">
+    <div class="container-fluid bg-dark">
+        <div class="row">
             <a><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt="facebook logo"></a>
             <a><img src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="instagram logo"></a>
             <a><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.svg" alt="twitter logo"></a>
@@ -43,7 +43,7 @@
             <a><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin logo"></a>
         </div>
     </div>
-    <p class="copyright">© 2020 &bull; Austin Wright &bull; <a href="#">Login</a></p>
+    <p class="container-fluid">© 2020 &bull; Austin Wright &bull; <a href="#">Login</a></p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
