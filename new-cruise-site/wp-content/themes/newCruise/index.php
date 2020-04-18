@@ -14,16 +14,16 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip1" class="d-block w-100" alt="Cruise Ship">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip1.jpg" class="d-block w-100" alt="Cruise Ship">
     </div>
     <div class="carousel-item">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip2" class="d-block w-100" alt="Cruise Ship">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip2.jpg" class="d-block w-100" alt="Cruise Ship">
     </div>
     <div class="carousel-item">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip3" class="d-block w-100" alt="Cruise Ship">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip3.jpg" class="d-block w-100" alt="Cruise Ship">
     </div>
     <div class="carousel-item">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip4" class="d-block w-100" alt="Cruise Ship">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/cruiseShip4.jpg" class="d-block w-100" alt="Cruise Ship">
     </div>
   </div>
 </div>
