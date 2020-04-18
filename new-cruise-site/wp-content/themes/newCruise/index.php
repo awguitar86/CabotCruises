@@ -28,7 +28,7 @@
   </div>
 </div>
 
-<div>
+<div class="container-xl">
   <h1>Welcome to Cabot Cruises Bootstrap website!</h1>
   <p>
     We have built this website using Bootstrap which has turned out very well. Bootstrap has many elements and components
