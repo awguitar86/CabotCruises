@@ -1,7 +1,7 @@
 </main>
 
-<footer class="container-fluid">
-    <div class="container-xl row bg-secondary">
+<footer class="container-fluid bg-secondary d-flex flex-column align-items-center justify-content-between">
+    <div class="container-xl row">
         <div class="col">
             <h2>Contact Us</h2>
             <p>
@@ -34,7 +34,7 @@
             </p>
         </div>
     </div>
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark d-flex align-items-center justify-content-center">
         <div class="row">
             <a><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.svg" alt="facebook logo"></a>
             <a><img src="<?php echo get_template_directory_uri(); ?>/images/instagram.svg" alt="instagram logo"></a>
@@ -43,7 +43,7 @@
             <a><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.svg" alt="linkedin logo"></a>
         </div>
     </div>
-    <p class="container-fluid">© 2020 &bull; Austin Wright &bull; <a href="#">Login</a></p>
+    <p class="container-fluid d-flex align-items-center justify-content-center">© 2020 &bull; Austin Wright &bull; <a href="#">Login</a></p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
