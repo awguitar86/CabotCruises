@@ -46,7 +46,9 @@ body {
   }
 }
 .current-menu-item {
-  border-bottom: solid 1px $second;
+  a {
+    border-bottom: solid 1px $second;
+  }
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

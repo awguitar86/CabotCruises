@@ -383,7 +383,7 @@ body {
   font-size: 14pt;
 }
 
-.current-menu-item {
+.current-menu-item a {
   border-bottom: solid 1px #3a506b;
 }
 
