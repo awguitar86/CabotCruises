@@ -1,6 +1,6 @@
 </main>
 
-<footer class="container-fluid bg-secondary d-flex flex-column align-items-center justify-content-between pl-0 pr-0">
+<footer class="container-fluid bg-secondary d-flex flex-column align-items-center justify-content-between pl-0 pr-0 text-white">
     <div class="container-xl row">
         <div class="col">
             <h2>Contact Us</h2>
