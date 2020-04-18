@@ -9,7 +9,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
-    <a class="navbar-brand" href="/home">
+    <a class="navbar-brand" href="/">
       <img
         src="./images/shipLogoX1.png"
         srcset="<?php echo get_template_directory_uri(); ?>/images/shipLogoX2.png 768w,
