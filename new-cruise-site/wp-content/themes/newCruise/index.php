@@ -35,8 +35,8 @@
     that are very useful for many things on a website. We will list a few things that we use on this website that we really like
     from Bootstrap.
   </p>
-  <h2>Bootstrap Elements</h2>
-  <ul class="list-group">
+  <h2>Bootstrap Elements Used</h2>
+  <ul class="list-group boot-el">
     <li class="list-group-item">Carousel</li>
     <li class="list-group-item">Navbar</li>
     <li class="list-group-item">Cards</li>

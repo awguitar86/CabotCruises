@@ -408,6 +408,11 @@ main {
 }
 
 /* end of media query */
+@media only screen and (min-width: 75rem) {
+  .boot-el {
+    width: 50%;
+  }
+}
 /* end of media query */
 
 /*# sourceMappingURL=styles.css.map */
