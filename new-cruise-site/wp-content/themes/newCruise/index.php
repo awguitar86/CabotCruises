@@ -28,7 +28,7 @@
   </div>
 </div>
 
-<div class="container-xl">
+<div class="container">
   <h1>Welcome to Cabot Cruises Bootstrap website!</h1>
   <p>
     We have built this website using Bootstrap which has turned out very well. Bootstrap has many elements and components
@@ -42,6 +42,9 @@
     <li class="list-group-item">Cards</li>
     <li class="list-group-item">Forms</li>
     <li class="list-group-item">List Group</li>
+    <li class="list-group-item">Modal</li>
+    <li class="list-group-item">Collapse</li>
+    <li class="list-group-item">Buttons</li>
     <li class="list-group-item">Helper classes for row, column, margin, padding, flexbox, and sizing.</li>
   </ul>
 </div>

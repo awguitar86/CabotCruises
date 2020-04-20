@@ -13,221 +13,233 @@
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
   </head>
   <body>
+    <p class="w-100 text-center mb-5">
+      These are Bootstrap Collaps components and they are used to show and hide
+      content. Click on the images and buttons to reveal more info!
+    </p>
     <div class="container row">
-      <a
-        class="col-12 col-md-4 d-flex flex-column align-items-center"
-        data-toggle="collapse"
-        href="#insideCruise"
-        aria-expanded="false"
-        aria-controls="insideCruise"
-      >
-        <img
-          src="./images/insideShip.jpg"
-          alt="Cruise Inside"
-          class="w-100 rounded-top"
-        />
-        <button
-          class="btn btn-primary w-100"
-          style="
-            border-radius: 0;
-            border-bottom-left-radius: 0.25rem;
-            border-bottom-right-radius: 0.25rem;
-          "
+      <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+        <a
+          class="w-100 d-flex flex-column align-items-center"
+          data-toggle="collapse"
+          href="#insideCruise"
+          aria-expanded="false"
+          aria-controls="insideCruise"
         >
-          Inside The Cruise Ship
-        </button>
-      </a>
-      <a
-        class="col-12 col-md-4 d-flex flex-column align-items-center"
-        data-toggle="collapse"
-        href="#cruiseRoom"
-        aria-expanded="false"
-        aria-controls="cruiseRoom"
-      >
-        <img
-          src="./images/cruiseRoom.jpg"
-          alt="Cruise Room"
-          class="w-100 rounded-top"
-        />
-        <button
-          class="btn btn-primary w-100"
-          style="
-            border-radius: 0;
-            border-bottom-left-radius: 0.25rem;
-            border-bottom-right-radius: 0.25rem;
-          "
-        >
-          Cruise Room
-        </button>
-      </a>
-      <a
-        class="col-12 col-md-4 d-flex flex-column align-items-center"
-        data-toggle="collapse"
-        href="#cruiseSuite"
-        aria-expanded="false"
-        aria-controls="cruiseSuite"
-      >
-        <img
-          src="./images/cruiseSuite.jpg"
-          alt="Cruise Suite"
-          class="w-100 rounded-top"
-        />
-        <button
-          class="btn btn-primary w-100"
-          style="
-            border-radius: 0;
-            border-bottom-left-radius: 0.25rem;
-            border-bottom-right-radius: 0.25rem;
-          "
-        >
-          Cruise Suite
-        </button>
-      </a>
-    </div>
-    <div class="container row">
-      <div class="col-12 col-md-4">
-        <div class="collapse multi-collapse" id="insideCruise">
-          <div class="card card-body">
-            This is the Bootstrap Collapse component and is used to show and
-            hide content. Buttons or anchors are used as triggers that are
-            mapped to specific elements you toggle. Collapsing an element will
-            animate the height from its current value to 0. Given how CSS
-            handles animations, you cannot use padding on a .collapse element.
-            Instead, use the class as an independent wrapping element.
+          <img
+            src="./images/insideShip.jpg"
+            alt="Cruise Inside"
+            class="w-100 rounded-top"
+          />
+          <button
+            class="btn btn-primary w-100"
+            style="
+              border-radius: 0;
+              border-bottom-left-radius: 0.25rem;
+              border-bottom-right-radius: 0.25rem;
+            "
+          >
+            More Info
+          </button>
+        </a>
+        <div class="w-100">
+          <div class="collapse multi-collapse" id="insideCruise">
+            <div class="card card-body">
+              This is the Bootstrap Collapse component and is used to show and
+              hide content. Buttons or anchors are used as triggers that are
+              mapped to specific elements you toggle. Collapsing an element will
+              animate the height from its current value to 0. Given how CSS
+              handles animations, you cannot use padding on a .collapse element.
+              Instead, use the class as an independent wrapping element.
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4">
-        <div class="collapse multi-collapse" id="cruiseRoom">
-          <div class="card card-body">
-            This is the Bootstrap Collapse component and is used to show and
-            hide content. Buttons or anchors are used as triggers that are
-            mapped to specific elements you toggle. Collapsing an element will
-            animate the height from its current value to 0. Given how CSS
-            handles animations, you cannot use padding on a .collapse element.
-            Instead, use the class as an independent wrapping element.
+      <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+        <a
+          class="w-100 d-flex flex-column align-items-center"
+          data-toggle="collapse"
+          href="#cruiseRoom"
+          aria-expanded="false"
+          aria-controls="cruiseRoom"
+        >
+          <img
+            src="./images/cruiseRoom.jpg"
+            alt="Cruise Room"
+            class="w-100 rounded-top"
+          />
+          <button
+            class="btn btn-primary w-100"
+            style="
+              border-radius: 0;
+              border-bottom-left-radius: 0.25rem;
+              border-bottom-right-radius: 0.25rem;
+            "
+          >
+            More Info
+          </button>
+        </a>
+        <div class="w-100">
+          <div class="collapse multi-collapse" id="cruiseRoom">
+            <div class="card card-body">
+              This is the Bootstrap Collapse component and is used to show and
+              hide content. Buttons or anchors are used as triggers that are
+              mapped to specific elements you toggle. Collapsing an element will
+              animate the height from its current value to 0. Given how CSS
+              handles animations, you cannot use padding on a .collapse element.
+              Instead, use the class as an independent wrapping element.
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4">
-        <div class="collapse multi-collapse" id="cruiseSuite">
-          <div class="card card-body">
-            This is the Bootstrap Collapse component and is used to show and
-            hide content. Buttons or anchors are used as triggers that are
-            mapped to specific elements you toggle. Collapsing an element will
-            animate the height from its current value to 0. Given how CSS
-            handles animations, you cannot use padding on a .collapse element.
-            Instead, use the class as an independent wrapping element.
+      <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+        <a
+          class="w-100 d-flex flex-column align-items-center"
+          data-toggle="collapse"
+          href="#cruiseSuite"
+          aria-expanded="false"
+          aria-controls="cruiseSuite"
+        >
+          <img
+            src="./images/cruiseSuite.jpg"
+            alt="Cruise Suite"
+            class="w-100 rounded-top"
+          />
+          <button
+            class="btn btn-primary w-100"
+            style="
+              border-radius: 0;
+              border-bottom-left-radius: 0.25rem;
+              border-bottom-right-radius: 0.25rem;
+            "
+          >
+            More Info
+          </button>
+        </a>
+        <div class="w-100">
+          <div class="collapse multi-collapse" id="cruiseSuite">
+            <div class="card card-body">
+              This is the Bootstrap Collapse component and is used to show and
+              hide content. Buttons or anchors are used as triggers that are
+              mapped to specific elements you toggle. Collapsing an element will
+              animate the height from its current value to 0. Given how CSS
+              handles animations, you cannot use padding on a .collapse element.
+              Instead, use the class as an independent wrapping element.
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <div class="container row mt-5">
-      <a
-        class="col-12 col-md-4 d-flex flex-column align-items-center"
-        data-toggle="collapse"
-        href="#cruiseTheater"
-        aria-expanded="false"
-        aria-controls="cruiseTheater"
-      >
-        <img
-          src="./images/cruiseBigScreen.jpg"
-          alt="Cruise Theater"
-          class="w-100 rounded-top"
-        />
-        <button
-          class="btn btn-primary w-100"
-          style="
-            border-radius: 0;
-            border-bottom-left-radius: 0.25rem;
-            border-bottom-right-radius: 0.25rem;
-          "
+      <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+        <a
+          class="w-100 d-flex flex-column align-items-center"
+          data-toggle="collapse"
+          href="#cruiseTheater"
+          aria-expanded="false"
+          aria-controls="cruiseTheater"
         >
-          Cruise Theater
-        </button>
-      </a>
-      <a
-        class="col-12 col-md-4 d-flex flex-column align-items-center"
-        data-toggle="collapse"
-        href="#cruisePool"
-        aria-expanded="false"
-        aria-controls="cruisePool"
-      >
-        <img
-          src="./images/cruisePool.jpg"
-          alt="Cruise Pool"
-          class="w-100 rounded-top"
-        />
-        <button
-          class="btn btn-primary w-100"
-          style="
-            border-radius: 0;
-            border-bottom-left-radius: 0.25rem;
-            border-bottom-right-radius: 0.25rem;
-          "
-        >
-          Cruise Pool
-        </button>
-      </a>
-      <a
-        class="col-12 col-md-4 d-flex flex-column align-items-center"
-        data-toggle="collapse"
-        href="#cruiseWaterslides"
-        aria-expanded="false"
-        aria-controls="cruiseWaterslides"
-      >
-        <img
-          src="./images/waterslides.jpg"
-          alt="Cruise Waterslides"
-          class="w-100 rounded-top"
-        />
-        <button
-          class="btn btn-primary w-100"
-          style="
-            border-radius: 0;
-            border-bottom-left-radius: 0.25rem;
-            border-bottom-right-radius: 0.25rem;
-          "
-        >
-          Cruise Waterslide
-        </button>
-      </a>
-    </div>
-    <div class="container row">
-      <div class="col-12 col-md-4">
-        <div class="collapse multi-collapse" id="cruiseTheater">
-          <div class="card card-body">
-            This is the Bootstrap Collapse component and is used to show and
-            hide content. Buttons or anchors are used as triggers that are
-            mapped to specific elements you toggle. Collapsing an element will
-            animate the height from its current value to 0. Given how CSS
-            handles animations, you cannot use padding on a .collapse element.
-            Instead, use the class as an independent wrapping element.
+          <img
+            src="./images/cruiseBigScreen.jpg"
+            alt="Cruise Theater"
+            class="w-100 rounded-top"
+          />
+          <button
+            class="btn btn-primary w-100"
+            style="
+              border-radius: 0;
+              border-bottom-left-radius: 0.25rem;
+              border-bottom-right-radius: 0.25rem;
+            "
+          >
+            More Info
+          </button>
+        </a>
+        <div class="w-100">
+          <div class="collapse multi-collapse" id="cruiseTheater">
+            <div class="card card-body">
+              This is the Bootstrap Collapse component and is used to show and
+              hide content. Buttons or anchors are used as triggers that are
+              mapped to specific elements you toggle. Collapsing an element will
+              animate the height from its current value to 0. Given how CSS
+              handles animations, you cannot use padding on a .collapse element.
+              Instead, use the class as an independent wrapping element.
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4">
-        <div class="collapse multi-collapse" id="cruisePool">
-          <div class="card card-body">
-            This is the Bootstrap Collapse component and is used to show and
-            hide content. Buttons or anchors are used as triggers that are
-            mapped to specific elements you toggle. Collapsing an element will
-            animate the height from its current value to 0. Given how CSS
-            handles animations, you cannot use padding on a .collapse element.
-            Instead, use the class as an independent wrapping element.
+      <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+        <a
+          class="w-100 d-flex flex-column align-items-center"
+          data-toggle="collapse"
+          href="#cruisePool"
+          aria-expanded="false"
+          aria-controls="cruisePool"
+        >
+          <img
+            src="./images/cruisePool.jpg"
+            alt="Cruise Pool"
+            class="w-100 rounded-top"
+          />
+          <button
+            class="btn btn-primary w-100"
+            style="
+              border-radius: 0;
+              border-bottom-left-radius: 0.25rem;
+              border-bottom-right-radius: 0.25rem;
+            "
+          >
+            More Info
+          </button>
+        </a>
+        <div class="w-100">
+          <div class="collapse multi-collapse" id="cruisePool">
+            <div class="card card-body">
+              This is the Bootstrap Collapse component and is used to show and
+              hide content. Buttons or anchors are used as triggers that are
+              mapped to specific elements you toggle. Collapsing an element will
+              animate the height from its current value to 0. Given how CSS
+              handles animations, you cannot use padding on a .collapse element.
+              Instead, use the class as an independent wrapping element.
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4">
-        <div class="collapse multi-collapse" id="cruiseWaterslides">
-          <div class="card card-body">
-            This is the Bootstrap Collapse component and is used to show and
-            hide content. Buttons or anchors are used as triggers that are
-            mapped to specific elements you toggle. Collapsing an element will
-            animate the height from its current value to 0. Given how CSS
-            handles animations, you cannot use padding on a .collapse element.
-            Instead, use the class as an independent wrapping element.
+      <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+        <a
+          class="w-100 d-flex flex-column align-items-center"
+          data-toggle="collapse"
+          href="#cruiseWaterslides"
+          aria-expanded="false"
+          aria-controls="cruiseWaterslides"
+        >
+          <img
+            src="./images/waterslides.jpg"
+            alt="Cruise Waterslides"
+            class="w-100 rounded-top"
+          />
+          <button
+            class="btn btn-primary w-100"
+            style="
+              border-radius: 0;
+              border-bottom-left-radius: 0.25rem;
+              border-bottom-right-radius: 0.25rem;
+            "
+          >
+            More Info
+          </button>
+        </a>
+        <div class="w-100">
+          <div class="collapse multi-collapse" id="cruiseWaterslides">
+            <div class="card card-body">
+              This is the Bootstrap Collapse component and is used to show and
+              hide content. Buttons or anchors are used as triggers that are
+              mapped to specific elements you toggle. Collapsing an element will
+              animate the height from its current value to 0. Given how CSS
+              handles animations, you cannot use padding on a .collapse element.
+              Instead, use the class as an independent wrapping element.
+            </div>
           </div>
         </div>
       </div>
