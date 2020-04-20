@@ -2,7 +2,7 @@
 
 <footer class="container-fluid bg-secondary d-flex flex-column align-items-center justify-content-between pl-0 pr-0 text-white">
     <div class="container-xl row mt-4 mb-4">
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-3">
             <h2>Contact Us</h2>
             <p>
                 Cabot Cruises<br>
@@ -14,7 +14,7 @@
             <h2>Hours of Operation:</h2>
             <p>Monday - Friday 9am - 5pm</p>
         </div>
-        <div class="col d-flex flex-column">
+        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column">
             <h2>News Letter</h2>
             <p>
                 Subscribe to our email list and stay up-to-date with our honest offers and latest specials.
@@ -22,7 +22,7 @@
             <input type="email" class="w-100 rounded-lg border-0 mb-2" style="height:40px;">
             <button type="button" class="btn btn-primary">Subscribe</button>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-3">
             <h2>Why Cabot Cruises</h2>
             <p>
                 Cabot Cruises is a travel agency providing the best cruise deals on our online travel website.

@@ -13,68 +13,299 @@
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
   </head>
   <body style="width: 100vw;">
-    <div class="container-xl d-flex justify-content-between w-100 mt-4">
-      <div class="card" style="width: 17rem;">
-        <img
-          src="./images/iceland.jpg"
-          class="card-img-top"
-          alt="Icland Cruise"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Icland</h5>
-          <p class="card-text">
-            Our Icland cruise is one of the most beutiful cruises we have.
-          </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
+    <div class="container-xl mt-4 row">
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card shadow">
+          <img
+            src="./images/iceland.jpg"
+            class="card-img-top"
+            alt="Icland Cruise"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Iceland</h5>
+            <p class="card-text">
+              This is a Bootstrap card that is a flexible and extensible content
+              container.
+            </p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-toggle="modal"
+              data-target="#IcelandModal"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Icland Modal -->
+      <div
+        class="modal fade"
+        id="IcelandModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="IcelandModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Iceland</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="./images/iceland.jpg"
+                class="card-img-top"
+                alt="Icland Cruise"
+              />
+              <p class="card-text mt-4">
+                This is a Bootstrap Modal that is built with HTML, CSS, and
+                JavaScript. They are positioned over everything else and remove
+                scroll from the body so that modal content scrolls instead. One
+                thing that is nice about the Bootstrap Modal is when you click
+                the backdrop the modal with automatically close.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 17rem;">
-        <img
-          src="./images/hawaii.jpg"
-          class="card-img-top"
-          alt="Icland Cruise"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Hawaii</h5>
-          <p class="card-text">
-            You know you want to go to Hawaii! Go there on a cruise!
-          </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card shadow">
+          <img
+            src="./images/hawaii.jpg"
+            class="card-img-top"
+            alt="Icland Cruise"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Hawaii</h5>
+            <p class="card-text">
+              This is a Bootstrap card that is a flexible and extensible content
+              container.
+            </p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-toggle="modal"
+              data-target="#HawaiiModal"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Hawaii Modal -->
+      <div
+        class="modal fade"
+        id="HawaiiModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="HawaiiModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Hawaii</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="./images/hawaii.jpg"
+                class="card-img-top"
+                alt="Hawaii Cruise"
+              />
+              <p class="card-text mt-4">
+                This is a Bootstrap Modal that is built with HTML, CSS, and
+                JavaScript. They are positioned over everything else and remove
+                scroll from the body so that modal content scrolls instead. One
+                thing that is nice about the Bootstrap Modal is when you click
+                the backdrop the modal with automatically close.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 17rem;">
-        <img
-          src="./images/mexico.jpg"
-          class="card-img-top"
-          alt="Icland Cruise"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Mexico</h5>
-          <p class="card-text">
-            Our cruise to Mexico is a cruise you will never forget!
-          </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card shadow">
+          <img
+            src="./images/mexico.jpg"
+            class="card-img-top"
+            alt="Icland Cruise"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Mexico</h5>
+            <p class="card-text">
+              This is a Bootstrap card that is a flexible and extensible content
+              container.
+            </p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-toggle="modal"
+              data-target="#MexicoModal"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mexico Modal -->
+      <div
+        class="modal fade"
+        id="MexicoModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="MexicoModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Mexico</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="./images/mexico.jpg"
+                class="card-img-top"
+                alt="Mexico Cruise"
+              />
+              <p class="card-text mt-4">
+                This is a Bootstrap Modal that is built with HTML, CSS, and
+                JavaScript. They are positioned over everything else and remove
+                scroll from the body so that modal content scrolls instead. One
+                thing that is nice about the Bootstrap Modal is when you click
+                the backdrop the modal with automatically close.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="card" style="width: 17rem;">
-        <img
-          src="./images/newZealand.jpg"
-          class="card-img-top"
-          alt="Icland Cruise"
-        />
-        <div class="card-body">
-          <h5 class="card-title">New Zealand</h5>
-          <p class="card-text">
-            New Zealand is a gem that you will love see on a cruise!
-          </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card shadow">
+          <img
+            src="./images/newZealand.jpg"
+            class="card-img-top"
+            alt="Icland Cruise"
+          />
+          <div class="card-body">
+            <h5 class="card-title">New Zealand</h5>
+            <p class="card-text">
+              This is a Bootstrap card that is a flexible and extensible content
+              container.
+            </p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-toggle="modal"
+              data-target="#NewZealandModal"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- New Zealand Modal -->
+      <div
+        class="modal fade"
+        id="NewZealandModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="NewZealandModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">New Zealand</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="./images/newZealand.jpg"
+                class="card-img-top"
+                alt="New Zealand Cruise"
+              />
+              <p class="card-text mt-4">
+                This is a Bootstrap Modal that is built with HTML, CSS, and
+                JavaScript. They are positioned over everything else and remove
+                scroll from the body so that modal content scrolls instead. One
+                thing that is nice about the Bootstrap Modal is when you click
+                the backdrop the modal with automatically close.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
