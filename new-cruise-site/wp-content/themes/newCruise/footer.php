@@ -19,7 +19,7 @@
             <p>
                 Subscribe to our email list and stay up-to-date with our honest offers and latest specials.
             </p>
-            <input type="email" class="w-100 rounded-lg border-0 mb-2" style="height:40px;">
+            <input type="email" class="w-100 rounded-lg border-0 mb-2" style="height:40px;" placeholder="Email">
             <button type="button" class="btn btn-primary">Subscribe</button>
         </div>
         <div class="col-12 col-md-6 col-lg-4">

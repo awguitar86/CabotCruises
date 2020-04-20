@@ -9,7 +9,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
-    <div class="container-xl">
+    <div class="container">
       <a class="navbar-brand" href="/">
         <img
           src="./images/shipLogoX1.png"
