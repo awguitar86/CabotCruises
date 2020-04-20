@@ -14,7 +14,7 @@
             <h2>Hours of Operation:</h2>
             <p>Monday - Friday 9am - 5pm</p>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
+        <div class="col-12 col-md-6 col-lg-4 d-flex flex-column mb-4">
             <h2>News Letter</h2>
             <p>
                 Subscribe to our email list and stay up-to-date with our honest offers and latest specials.
