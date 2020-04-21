@@ -79,8 +79,6 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
-define('WP_HOME','https://cruise.austinwright.org'); define('WP_SITEURL','https://cruise.austinwright.org');  // ** MySQL settings - You can get this info from your web host ** //
-
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
@@ -89,4 +87,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /** Sets up WordPress vars and included files. */
-require_once ABSPATH . 'wp-settings.php';
+require_once( ABSPATH . 'wp-settings.php' );
